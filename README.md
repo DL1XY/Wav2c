@@ -8,11 +8,10 @@ The tool can be used to create audio data which can be played with AVR/Arduino P
 Put your WAV files into the /sample folder, the newly encoded files will be put into /encoded folder
 
 
-HEADER EXAMPLE
-==============
+## Header example
+
 	 
 const uint8_t sounddata_sample_count = 8;
-	
 enum {
 	LENGTH_SAMPLE_0 = 2399,	// 1_BASSDRUM.wav
 	LENGTH_SAMPLE_1 = 4282,	// 2_BASSKICK.wav
