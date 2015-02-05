@@ -13,9 +13,9 @@ Put your WAV files into the /sample folder, the newly encoded files will be put 
 	 
 const uint8_t sounddata_sample_count = 8;
 enum {
-	LENGTH_SAMPLE_0 = 2399,	// 1_BASSDRUM.wav
-	LENGTH_SAMPLE_1 = 4282,	// 2_BASSKICK.wav
-	...
+    LENGTH_SAMPLE_0 = 2399,	// 1_BASSDRUM.wav
+    LENGTH_SAMPLE_1 = 4282,	// 2_BASSKICK.wav
+    ...
 };
 		
 const uint16_t sounddata_sample_length_enum[] = { 
