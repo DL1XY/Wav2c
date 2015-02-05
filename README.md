@@ -10,24 +10,24 @@ Put your WAV files into the /sample folder, the newly encoded files will be put 
 
 ## Header example
 
-	 
+<code><pre>
 const uint8_t sounddata_sample_count = 8;
 
-enum {<br>
-	LENGTH_SAMPLE_0 = 2399,	// 1_BASSDRUM.wav<br>
-	LENGTH_SAMPLE_1 = 4282,	// 2_BASSKICK.wav<br>
-	...<br>
-};<br>
+enum {
+	LENGTH_SAMPLE_0 = 2399,	// 1_BASSDRUM.wav
+	LENGTH_SAMPLE_1 = 4282,	// 2_BASSKICK.wav
+	...
+};
 		
-const uint16_t sounddata_sample_length_enum[] = { <br>
-	LENGTH_SAMPLE_0,<br>
-	LENGTH_SAMPLE_1,<br>
-	...<br>
-};<br>
+const uint16_t sounddata_sample_length_enum[] = {
+	LENGTH_SAMPLE_0,
+	LENGTH_SAMPLE_1,
+	...
+};
 		
 const uint16_t sounddata_length = 19140;
 		
 const uint16_t sounddata_sample_max_length = 4423;
 		
 const unsigned char sounddata_data[] PROGMEM = {127,...,1};
- 
+</pre></code>
