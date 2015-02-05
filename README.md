@@ -15,17 +15,15 @@ const uint8_t sounddata_sample_count = 8;
 
 enum {
 	LENGTH_SAMPLE_0 = 2399,	// 1_BASSDRUM.wav
-	LENGTH_SAMPLE_1 = 4282,	// 2_BASSKICK.wav
-	...
+	LENGTH_SAMPLE_1 = 4282	// 2_BASSKICK.wav
 };
 		
 const uint16_t sounddata_sample_length_enum[] = {
 	LENGTH_SAMPLE_0,
-	LENGTH_SAMPLE_1,
-	...
+	LENGTH_SAMPLE_1
 };
 		
-const uint16_t sounddata_length = 19140;
+const uint16_t sounddata_length = 6681;
 		
 const uint16_t sounddata_sample_max_length = 4423;
 		
