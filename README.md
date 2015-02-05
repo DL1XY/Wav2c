@@ -3,7 +3,7 @@
 Wav2c converts RIFF-WAV files to 8Bit 8000Hz mono format and creates a C header file containing raw sounddata
 and meta data about the samples.
   
-The tool can be used to create audio data which can be played with AVR/Arduino PWM feature.  
+The tool can be used to create audio data playable on an AVR/Arduino PWM channel.  
   
 Put your WAV files into the /sample folder, the newly encoded files will be put into /encoded folder
 
